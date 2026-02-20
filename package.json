@@ -4,6 +4,7 @@
   "description": "Kamosh Cedin - Light & Ultra Dark theme",
   "version": "1.0.1",
   "publisher": "FilipSkerik",
+  "icon": "images/kamosh.png",
   "engines": {
     "vscode": "^1.109.0"
   },
