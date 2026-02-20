@@ -1,0 +1,21 @@
+{
+  "name": "kamosh-cedin",
+  "displayName": "Kamosh Cedin",
+  "description": "Kamosh Cedin - Light & Ultra Dark theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.109.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Light",
+        "uiTheme": "vs",
+        "path": "./themes/Light-color-theme.json"
+      }
+    ]
+  }
+}
