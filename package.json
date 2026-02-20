@@ -15,6 +15,16 @@
         "label": "Kamosh Cedin - Light",
         "uiTheme": "vs",
         "path": "./themes/Light-color-theme.json"
+      },
+      {
+        "label": "Kamosh Cedin - Light Minimalist",
+        "uiTheme": "vs",
+        "path": "./themes/Light-minimalist-color-theme.json"
+      },
+      {
+        "label": "Kamosh Cedin - Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dark-color-theme.json"
       }
     ]
   }
