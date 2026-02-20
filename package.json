@@ -12,7 +12,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "Light",
+        "label": "Kamosh Cedin - Light",
         "uiTheme": "vs",
         "path": "./themes/Light-color-theme.json"
       }

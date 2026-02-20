@@ -1,11 +1,21 @@
 {
 	"name": "Light",
 	"colors": {
-		"editor.background": "#f5f5f5",
+		"editor.background": "#fff",
 		"editor.foreground": "#333333",
-        "list.activeSelectionIconForeground": "#fff"
+		"editor.lineHighlightBackground": "#ffffe1",
+		"editorWhitespace.foreground":"#ddd",
+        "list.activeSelectionIconForeground": "#fff",
 	},
 	"tokenColors": [
+		{ "scope": ["meta.method-call entity.name.function", "meta.method-call.static entity.name.function"], "settings": { "foreground": "#1580ec" } },
+		{ "scope": ["comment.block.documentation", "meta.other.type.phpdoc support.other.namespace", "meta.other.type.phpdoc support.class", "meta.other.type.phpdoc support.other.namespace punctuation.separator.inheritance"], "settings": { "fontStyle": "italic", "foreground": "#ff8000" } },
+		{ "scope": ["punctuation.definition.string", "string.quoted.double", "string.quoted.single"], "settings": { "foreground": "#ff1c1c" } },
+		{ "scope": ["entity.name.type.class", "entity.name.type.namespace", "entity.other.inherited-class", "support.class", "support.other.namespace", "storage.type", "constant.other"], "settings": { "foreground": "#008000" } },
+		{ "scope": ["keyword.other", "support.function.construct", "storage.type"], "settings": { "foreground": "#0000bb" } },
+		{ "scope": "support.function", "settings": { "fontStyle": "bold" } },
+		{ "scope": "support.function.construct", "settings": { "fontStyle": "" } },
+		{ "scope": ["comment.block", "comment.line"], "settings": { "foreground": "#a5a5a5" } },
 		{
 			"name": "Comments",
 			"scope": [
