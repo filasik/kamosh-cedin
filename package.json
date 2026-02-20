@@ -2,7 +2,7 @@
   "name": "kamosh-cedin",
   "displayName": "Kamosh Cedin",
   "description": "Kamosh Cedin - Light & Ultra Dark theme",
-  "version": "0.0.1",
+  "version": "1.0.0-beta",
   "engines": {
     "vscode": "^1.109.0"
   },
